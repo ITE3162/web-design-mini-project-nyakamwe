@@ -93,7 +93,30 @@ html{
     background: none;
 }
 
-/* about section styling */
+/* all similar content styling */
+section{
+    padding: 100px 0;
+}
+section .title{
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+}
+section .title::before{
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 180px;
+    height: 3px;
+    background: #000;
+    transform: translateX(-50%);
+
+}
+* about section styling */
 .about{
     height: 670px;
     padding-top: 62px;
@@ -146,28 +169,4 @@ html{
 .about .about-content .right a:hover{
     color: crimson;
     background: none;
-}
-
-/* all similar content styling */
-section{
-    padding: 100px 0;
-}
-section .title{
-    position: relative;
-    text-align: center;
-    font-size: 40px;
-    font-weight: 500;
-    margin-bottom: 60px;
-    padding-bottom: 20px;
-}
-section .title::before{
-    content: "";
-    position: absolute;
-    bottom: 0px;
-    left: 50%;
-    width: 180px;
-    height: 3px;
-    background: #000;
-    transform: translateX(-50%);
-
 }
