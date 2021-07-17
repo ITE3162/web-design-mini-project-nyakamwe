@@ -93,6 +93,61 @@ html{
     background: none;
 }
 
+/* about section styling */
+.about{
+    height: 670px;
+    padding-top: 62px;
+}
+
+.about .title::after{
+    content: "Who i am";
+}
+.about .about-content, .service .service-content, .skills .skills-content, .contact .contact-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.about .about-content .left{
+    width: 35%;
+}
+.about .about-content .left img{
+    height: 280px;
+    width: 350px;
+    border-radius: 6px;
+    border: 2px solid gray;
+    object-fit: cover;
+}
+.about .about-content .right{
+    width: 65%;
+}
+.about .about-content .right .text{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.about .about-content .right .text span{
+    color: crimson;
+}
+.about .about-content .right p{
+    text-align: justify;
+}
+.about .about-content .right a{
+    display: inline-block;
+    color: #fff;
+    background: crimson;
+    font-size: 20px;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+}
+.about .about-content .right a:hover{
+    color: crimson;
+    background: none;
+}
+
 /* all similar content styling */
 section{
     padding: 100px 0;
