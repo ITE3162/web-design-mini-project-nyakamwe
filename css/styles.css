@@ -411,6 +411,10 @@ footer{
 
 /* responsive query start */
 @media (max-width: 500px){
+    .navbar{
+        background-color: rgb(78, 59, 63);
+        height: 150px;
+    }
     .navbar .menu li a{
          display: block;
          padding: 2px;
@@ -481,9 +485,6 @@ footer{
         margin-bottom: 20px;
     }
 }
-
-
-
 
  
 @media (max-width: 1111px){
