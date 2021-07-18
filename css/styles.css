@@ -400,3 +400,11 @@ section .title::after{
     color: crimson;
     background: none;
 }
+
+/* footer section styling */
+footer{
+    background: #111;
+    padding: 20px 23px;
+    color: #fff;
+    text-align: center;
+}
